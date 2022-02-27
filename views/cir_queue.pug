@@ -1,0 +1,63 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0, shrink-to-fit=no')
+    title Home - Brand
+    link(rel='stylesheet' href='/stylesheets/info.css')
+    link(rel='stylesheet' href='/assets/bootstrap/css/bootstrap.min.css')
+    link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic')
+  body
+    nav.navbar.navbar-light.navbar-expand.bg-light.navigation-clean
+      .container
+        a.navbar-brand(href='/') EasyEd
+        button.navbar-toggler(data-bs-toggle='collapse' data-bs-target='#navcol-1')
+        #navcol-1.collapse.navbar-collapse
+          a.btn.btn-primary.ms-auto(role='button' href='#') Sign Out
+    header.text-center.text-white.masthead(style="background:url('assets/img/bg-masthead.jpg')no-repeat center center;background-size:cover;")
+      .overlay
+      .overlay
+      .container
+        .row
+          .col-xl-9.mx-auto.position-relative
+            h1.mb-5
+              strong EasyEd: E-learning platform
+
+      
+    section
+      .container
+        .row.align-items-center
+          .col-lg-6.order-lg-2
+            .p-5
+          .col-lg-6.order-lg-1
+            .p-5
+              h2.display-4
+                br
+            h2 CIRCULAR QUEUE
+            ol
+            li
+              | Circular Queue is a linear data structure in which the operations are
+              | performed based on FIFO (First In First Out) principle and the last
+              | position is connected back to the first position to make a circle.
+              | It is also called ‘Ring Buffer’.
+            li
+              | Front: Get the front item from queue..
+            li
+              | Rear: Get the last item from queue.
+            li
+              | enQueue(value) This function is used to insert an element into the circular
+              | queue.In a circular queue, the new element is always inserted at Rear position.
+            li
+              | deQueue() This function is used to delete an element from the circular
+              | queue.In a circular queue, the element is always deleted from front position. .
+            
+            h3 Applications of Queue:
+            ol(role='navigation')
+              li
+                | Handling of interrupts in real-time systems. The interrupts are handled
+                | in the same order as they arrive i.e First come firstserved.
+              li
+                | Serving requests on a single shared resource, like a printer, CPU task
+                | scheduling etc.
+
+                

@@ -1,0 +1,65 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    <link href="//amp.azure.net/libs/amp/latest/skins/amp-default/azuremediaplayer.min.css" rel="stylesheet">
+    <script src= "//amp.azure.net/libs/amp/latest/azuremediaplayer.min.js"></script>
+    meta(name='viewport' content='width=device-width, initial-scale=1.0, shrink-to-fit=no')
+    title Home - Brand
+    link(rel='stylesheet' href='/stylesheets/info.css')
+    link(rel='stylesheet' href='assets/bootstrap/css/bootstrap.min.css')
+    link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic')
+  body
+    nav.navbar.navbar-light.navbar-expand.bg-light.navigation-clean
+      .container
+        a.navbar-brand(href='/') EasyEd
+        button.navbar-toggler(data-bs-toggle='collapse' data-bs-target='#navcol-1')
+        #navcol-1.collapse.navbar-collapse
+          a.btn.btn-primary.ms-auto(role='button' href='#') Sign Out
+    header.text-center.text-white.masthead(style="background:url('assets/img/bg-masthead.jpg')no-repeat center center;background-size:cover;")
+      .overlay
+      .overlay
+      .container
+        .row
+          .col-xl-9.mx-auto.position-relative
+            h1.mb-5
+              strong EasyEd: E-learning platform
+    body 
+    font( size='3')
+      // <pre font size="3">
+      
+    section
+      .container
+        .row.align-items-center
+          .col-lg-6.order-lg-2
+            .p-5
+          .col-lg-6.order-lg-1
+            .p-5
+              h2.display-4
+                br
+                | STACK
+            ol
+            li
+              | Stack is a linear data structure which follows the rule of LIFO that is last
+              | in first out.In this process, element which enters the stack 'first' comes
+              | out 'last'
+            li
+              | Insertion and deletion of elements is done only at one end which is known
+              | as'top'.
+            li
+              | Inserting an element in a stack is called push operation and deleting an
+              | element is called pop operation returning the topmost element of a stack is
+              | called peek operation
+            li
+              | Stacks have several applications in commuter programming. LIFO stacks, for
+              | example, can be used to retrieve recently used objects, from a cache.
+            li
+              | While stacks are commonly used by software programmers, you will typically
+              | not notice them while using a program. This is because the creation of
+              | stacks and push and pop operations are performed in the background while
+              | an application is running and are not visible to the user.
+              br
+              br
+        <video id="vid1" class="azuremediaplayer amp-default-skin" autoplay controls width="640" height="400" poster="poster.jpg" data-setup='{"nativeControlsForTouch": false}'>
+        <source src="https://easyed-aaea.streaming.media.azure.net/e00575b2-5dbc-4c8a-8471-5cdb2b646abe/STACK.ism/manifest" type="application/vnd.ms-sstr+xml" />
+        </video>

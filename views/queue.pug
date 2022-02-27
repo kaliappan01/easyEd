@@ -1,0 +1,66 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    <link href="//amp.azure.net/libs/amp/latest/skins/amp-default/azuremediaplayer.min.css" rel="stylesheet">
+    <script src= "//amp.azure.net/libs/amp/latest/azuremediaplayer.min.js"></script>
+    meta(name='viewport' content='width=device-width, initial-scale=1.0, shrink-to-fit=no')
+    title Home - Brand
+    link(rel='stylesheet' href='/stylesheets/info.css')
+    link(rel='stylesheet' href='assets/bootstrap/css/bootstrap.min.css')
+    link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic')
+  body
+    nav.navbar.navbar-light.navbar-expand.bg-light.navigation-clean
+      .container
+        a.navbar-brand(href='/') EasyEd
+        button.navbar-toggler(data-bs-toggle='collapse' data-bs-target='#navcol-1')
+        #navcol-1.collapse.navbar-collapse
+          a.btn.btn-primary.ms-auto(role='button' href='#') Sign Out
+    header.text-center.text-white.masthead(style="background:url('assets/img/bg-masthead.jpg')no-repeat center center;background-size:cover;")
+      .overlay
+      .overlay
+      .container
+        .row
+          .col-xl-9.mx-auto.position-relative
+            h1.mb-5
+              strong EasyEd: E-learning platform
+  font(color='black' font='' size='3')
+    section
+      .container
+        .row.align-items-center
+          .col-lg-6.order-lg-2
+            .p-5
+          .col-lg-6.order-lg-1
+            .p-5
+              h2.display-4
+                br
+              h2 What is a Queue?
+              br
+              br
+              p
+                | Queue is an abstract data structure, somewhat similar to Stacks. Unlike stacks, a queue is open at both its ends. One end is always used to insert data (enqueue) and the other is used to remove data (dequeue). Queue follows First-In-First-Out methodology, i.e., the data item stored first will be accessed first.
+              p
+                | As in stacks, a queue can also be implemented using Arrays, Linked-lists, Pointers and Structures. For the sake of simplicity, we shall implement queues using one-dimensional array.
+
+                p Types of Queue
+                p
+                h6 ♦️Simple Queue
+                h6  ♦️Circular Queue
+                ul
+                  li Simple Queue
+                  ul
+                    li 
+                    a In Linear Queue, an insertion takes place from one end while the deletion occurs from another end.
+                    li 
+                    a The end at which the insertion takes place is known as the rear end, and the end at which the deletion takes place is known as front end. It strictly follows the FIFO rule.
+                  li Circular Queue
+                  ul
+                    li 
+                    a In Circular Queue, all the nodes are represented as circular.
+                    li
+                    a It is similar to the linear Queue except that the last element of the queue is connected to the first element. It is also known as Ring Buffer, as all the ends are connected to another end.
+                        br
+                        br
+                <video id="vid2" class="azuremediaplayer amp-default-skin" autoplay controls width="640" height="400" poster="poster.jpg" data-setup='{"nativeControlsForTouch": false}'>
+                <source src="https://easyed-aaea.streaming.media.azure.net/cbfbfd5e-2a2b-40f9-ba0f-2cbca405db81/QUEUE.ism/manifest" type="application/vnd.ms-sstr+xml" />
+                </video>

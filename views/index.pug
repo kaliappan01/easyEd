@@ -1,0 +1,64 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0, shrink-to-fit=no')
+    title Home - Brand
+    link(rel='stylesheet' href='assets/bootstrap/css/bootstrap.min.css')
+    link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic')
+  body
+    nav.navbar.navbar-light.navbar-expand.bg-light.navigation-clean
+      .container
+        a.navbar-brand(href='/') EasyEd
+        button.navbar-toggler(data-bs-toggle='collapse' data-bs-target='#navcol-1')
+        #navcol-1.collapse.navbar-collapse
+          a.btn.btn-primary.ms-auto(role='button' href='#') Sign Out
+    header.text-center.text-white.masthead(style="background:url('assets/img/bg-masthead.jpg')no-repeat center center;background-size:cover;")
+      .overlay
+      .overlay
+      .container
+        .row
+          .col-xl-9.mx-auto.position-relative
+            h1.mb-5
+              strong EasyEd: E-learning platform
+    section.showcase
+      .container-fluid.p-0
+        .row.g-0
+          .col-lg-6.my-auto.order-lg-1.showcase-text
+            h2 STACK
+            p.lead.mb-0
+            a.button.btn.btn-primary(role='button' href='/stack') Watch Lecture
+          .col.offset-lg-0
+            img.rounded-circle.img-fluid(src='assets/img/stack.jpg')
+        .row.g-0
+          .col 
+            img.rounded-circle.img-fluid(src='assets/img/queue.jpg')
+          .col-lg-6.my-auto.order-lg-1.showcase-text
+            h2 QUEUE
+            a.button.btn.btn-primary(role='button' href='/queue') Watch Lecture
+            p.lead.mb-0
+        .row.g-0
+          .col-lg-6.my-auto.order-lg-1.showcase-text
+            h2 CIRCULAR QUEUE
+            p.lead.mb-0
+            a.button.btn.btn-primary(role='button' href='/cir_q') Watch Lecture
+          .col
+            img.rounded-circle.img-fluid(src='assets/img/cir_q.png')
+    footer.bg-light.footer
+      .container
+        .row
+          .col-lg-6.offset-lg-3.text-center.text-lg-start.my-auto.h-100
+            ul.list-inline.mb-2
+              li.list-inline-item
+                a(href='#') About
+              li.list-inline-item
+                span ⋅
+              li.list-inline-item
+                a(href='#') Contact
+              li.list-inline-item
+                span ⋅
+              li.list-inline-item
+              li.list-inline-item
+              li.list-inline-item
+            p.text-muted.small.mb-4.mb-lg-0 © Brand 2022. All Rights Reserved.
+    script(src='assets/bootstrap/js/bootstrap.min.js')
