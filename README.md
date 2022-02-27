@@ -1,0 +1,2 @@
+# easyEd
+EasyEd is an E-Learning web app that makes learning easy with animation videos, the signing users will get free access to E-Learning videos. The users sign in through a Google API then select the topic they want to access. Next, they stream their desired topic through online video streaming. Anyone can get access to this video for free, and animations help them to understand topics better.
