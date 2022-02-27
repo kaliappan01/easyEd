@@ -138,5 +138,6 @@ package-lock.json
 *.log
 *.gz
 
-assets/
+fonts/
+bootstrap/
 package.json
